@@ -55,4 +55,4 @@ const port = process.env.PORT || 3000
   app.get('*',(req,res) =>{res.render('missing',{title:'Missing Page',name:'Thomas',message:"Page Not Found"})}) // 404 handler
 
 // start the server
-  app.listen(port,() =>{console.log('Server is up on port' + port)})     
+  app.listen(port,() =>{console.log('Server is up on port ' + port)})     

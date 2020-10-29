@@ -23,9 +23,5 @@ weatherForm.addEventListener('submit',(event) =>{
     }
   }) //end of fetch -->
 })
-  
-  
-
-
 
 })
