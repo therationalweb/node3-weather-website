@@ -18,7 +18,7 @@ weatherForm.addEventListener('submit',(event) =>{
       message2.textContent = data.error}
     else{
       message1.textContent = data.location
-      message2.textContent = data.forecast
+      message2.innerHTML = data.forecast
       
     }
   }) //end of fetch -->
