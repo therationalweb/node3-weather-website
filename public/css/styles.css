@@ -1,0 +1,77 @@
+html{background-color:#efefef}
+body{
+  color:#333;
+  font: 400 1em/1.5 'Segoe UI';
+  max-width:50%;
+  margin:1em auto;
+  background-color:#fff; 
+  box-shadow:0 0 6px #999;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh}
+
+
+header{
+  background-image:url('/img/clouds.jpg'); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:.25em .25em 0 0;}
+
+header h1{
+  color:#00; 
+  font:400 1.75em/3 'Segoe UI';
+  text-align:center;
+  margin-bottom:0}
+
+label{font-weight:500;color:gray}
+
+input{
+  border: 1px solid #ddd;padding:.25em;border-radius:.25em}
+
+button{
+  cursor:pointer;
+  border: 1px solid #999;
+  background-color:#999;
+  color:white;
+  padding:.25em
+}
+
+footer{
+  transform:scaleY(-1);
+  background-image:url('/img/clouds.jpg'); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:.25em .25em 0 0;}
+
+footer p{
+  transform:scaleY(-1);
+  text-align:right;
+  margin-right:1em;
+  line-height:2}
+
+#content{flex-grow:1}
+
+#content p{padding:0 1em 0 1em;}
+
+#content img{
+  width:250px;
+  display:block;
+  margin:2em auto;
+  border-radius:1em;
+  box-shadow:0 0 6px #999}
+
+div.nav{
+  background-color:#222;
+  padding-left:.5em}
+
+div.nav a{
+  color:white; 
+  text-decoration: none;
+  line-height:2;}
+
+div.nav a:hover{color:orange}
+
+div.nav a::after{content: ' \00B7'}
+
+p.err{font-weight:600;color:#c10f0f}
+h2{color:Orange;font:400 1.5em/1 'Segoe UI'}
